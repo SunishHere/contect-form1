@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: transparent;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: rgb(7, 7, 7);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      background-origin: padding-box;
+      border-radius: 5rem;
+      color: red;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1a73e8;
+    }
+    h3 {
+      text-align: center;
+      color: #e81a1a;
+      shape-rendering: auto;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      background: #1a73e8;
+      color: rgb(243, 7, 7);
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      shape-outside: -o-linear-gradient();
+    button:hover {
+      background: #0f5ec4;
+    }
+    footer
+    color: red;
+
+
+
+
+  </style>
+</head>
+<body>
+<h3> <marquee> This form is created by Sunish Pal </marquee></h3> 
+<div class="container">
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/f/mdkdbqyb" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" nme="name" id="name" required>
+      <label for="contect number">Your Contect Number</label>
+      <input type="text" nme="number" id="contectnumber" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea name="message" id="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+   
+
+</body>
+</html>
